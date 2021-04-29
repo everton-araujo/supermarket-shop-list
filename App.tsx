@@ -1,9 +1,12 @@
 import React from 'react';
-import { WelcomePage } from './src/pages/Welcome';
+
+import Routes from './src/routes';
+import { UserName } from './src/pages/UserName';
 
 const App = () => {
   return (
-    <WelcomePage />
+    <Routes />
+    // <UserName />
   );
 };
 
